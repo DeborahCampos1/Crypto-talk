@@ -1,6 +1,6 @@
 // import SingleTickerBTC from "./Widgets/SingleTickerBTC";
 // import CryptoMarket from "./Widgets/CryptoMarket";
-import SymbolOverview from "./Widgets/SymbolOverview";
+import SymbolOverview from "../Widgets/SymbolOverview";
 import "./Home.css";
 
 function Home() {

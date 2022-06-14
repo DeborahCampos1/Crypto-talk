@@ -27,7 +27,8 @@ function News({getNewsData}) {
   return (
     <div className="News">
       <h1>Crypto News</h1>
-      <div className="news-dropdown">
+      <hr></hr>
+      {/* <div className="news-dropdown">
         Sort By:
         <select name="topic" id="topic">
           <option value="" selected="selected">
@@ -36,7 +37,7 @@ function News({getNewsData}) {
           <option value="crypto">crypto</option>
           <option value="education">education</option>
         </select>
-      </div>
+      </div> */}
       
       <div className="news-container">
         {newsData.map((oneArticle, index) => {

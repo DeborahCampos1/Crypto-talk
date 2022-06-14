@@ -2,10 +2,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
 // Components
-import Home from "./Components/Home";
-import NavBar from "./Components/NavBar";
+import Home from "./Components/HomePage/Home";
+import NavBar from "./Components/NavPage/NavBar";
 import Header from "./Components/Header";
-import Cryptocurrency from "./Components/Cryptocurrency";
+import Cryptocurrency from "./Components/Crypto/Cryptocurrency";
 import Footer from "./Components/Footer";
 import PageNotFound from "./Components/PageNotFound";
 
@@ -23,12 +23,12 @@ import UserFavorite from "./Components/UserProfile/UserFavorite";
 
 
 // News Articles and Videos Components
-import News from "./Components/News";
-import NewsPage from "./Components/NewsPage";
-import Articles from "./Components/Articles";
-import Article from "./Components/Article";
-import Videos from "./Components/Videos"
-import Video from "./Components/Video";
+import News from "./Components/NewsPages/News";
+import NewsPage from "./Components/NewsPages/NewsPage";
+import Articles from "./Components/ArticlePages/Articles";
+import Article from "./Components/ArticlePages/Article";
+import Videos from "./Components/VideoPages/Videos"
+import Video from "./Components/VideoPages/Video";
 
 // Chatbot 
 import AlanBot from "./Components/ChatBot/AlanBot";

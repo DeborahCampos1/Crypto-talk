@@ -1,5 +1,5 @@
 import "./Cryptocurrency.css"
-import CryptoMarket from "./Widgets/CryptoMarket";
+import CryptoMarket from "../Widgets/CryptoMarket";
 
 const Cryptocurrency = () => {
     return(

@@ -14,7 +14,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import { useState } from 'react';
 import { Link } from "react-router-dom";
 import "./NavBar.css"
-import logo from "../Images/chatbot-logo.png"
+import logo from "./Images/chatbot-logo.png"
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
