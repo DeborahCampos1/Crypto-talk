@@ -15,6 +15,7 @@
     grid-auto-rows: 1fr;
     margin: 0 auto; 
     gap: 5px;
+    overflow: hidden;
     /* grid-row-gap: 15px; */
 }
 

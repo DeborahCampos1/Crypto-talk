@@ -1,8 +1,9 @@
 .vids{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 5px;
     margin: 0 auto; 
+    overflow: hidden;
 }
 /* .vid-container{
     display: grid;
